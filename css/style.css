@@ -1,0 +1,22 @@
+body {margin: 0; }
+.back {width: 900px; height: 900px; border: 1px solid black; margin: auto; }
+.box {
+	width: 100px; height: 100px; background-color: gold; 
+	animation-name: box;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	}
+.box:hover {animation-play-state: paused; }
+.box2 {border: 1px solid black; width: 100px; height: 100px;}
+
+@keyframes box {
+				0%{
+					transform: translateX(0px);s
+					}
+				50%{
+					transform: translateX(800px);
+					}
+				100%{
+					transform: translateX(0px);
+				}
+				}
